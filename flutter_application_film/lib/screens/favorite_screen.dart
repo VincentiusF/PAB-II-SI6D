@@ -3,9 +3,6 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_film/models/movie.dart';
 import 'package:flutter_application_film/screens/detail_screen.dart';
-import 'package:flutter_application_film/models/movie.dart';
-import 'package:flutter_application_film/screens/detail_screen.dart';
-
 import 'package:shared_preferences/shared_preferences.dart';
 
 class FavoriteScreen extends StatefulWidget {
