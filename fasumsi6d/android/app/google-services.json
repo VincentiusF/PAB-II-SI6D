@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "927726495424",
+    "firebase_url": "https://prjpab2-si6d-2226240032-default-rtdb.firebaseio.com",
+    "project_id": "prjpab2-si6d-2226240032",
+    "storage_bucket": "prjpab2-si6d-2226240032.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927726495424:android:9c7eab953c5ded397cef25",
+        "android_client_info": {
+          "package_name": "com.example.fasumsi6d"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhPm9Tc8QKhhAa07O4U-9TNsmw3TnltIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927726495424:android:7db6175ad35856087cef25",
+        "android_client_info": {
+          "package_name": "com.example.flutter_daftar_belanja"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhPm9Tc8QKhhAa07O4U-9TNsmw3TnltIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
