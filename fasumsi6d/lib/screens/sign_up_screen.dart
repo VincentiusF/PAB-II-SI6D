@@ -34,9 +34,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  const SizedBox(
-                    height: 32,
-                  ),
+                  const SizedBox(height: 32),
                   TextFormField(
                     controller: _fullNameController,
                     textCapitalization: TextCapitalization.words,
@@ -95,7 +93,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     obscureText: !_isPasswordVisible,
                     validator: (value) {
                       if (value == null || value.trim().isEmpty) {
-                        return 'Please Enter Your Full Name';
+                        return 'Please Enter Your Password';
                       }
 
                       if (value.length < 6) {
@@ -143,7 +141,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           onPressed: () {
                             _signUp();
                           },
-                          child: const Text('Sign Up')),
+                          child: const Text('Sign Up'),
+                        ),
                 ],
               ),
             ),
@@ -173,8 +172,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
   }
 
   void _showErrorMessage(String message) {
-    ScaffoldMessenger.of(context)
-        .showSnackBar(SnackBar(content: Text(message)));
+    ScaffoldMessenger.of(
+      context,
+    ).showSnackBar(SnackBar(content: Text(message)));
   }
 
   void _signUp() async {
