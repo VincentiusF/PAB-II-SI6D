@@ -138,11 +138,11 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   _isLoading
                       ? const CircularProgressIndicator()
                       : ElevatedButton(
-                          onPressed: () {
-                            _signUp();
-                          },
-                          child: const Text('Sign Up'),
-                        ),
+                        onPressed: () {
+                          _signUp();
+                        },
+                        child: const Text('Sign Up'),
+                      ),
                 ],
               ),
             ),
@@ -197,10 +197,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
           .collection('users')
           .doc(UserCredential.user!.uid)
           .set({
-        'fullname': _fullNameController.text,
-        'email': _emailController.text,
-        'password': _passwordController.text,
-      });
+            'fullname': _fullNameController.text,
+            'email': _emailController.text,
+            'password': _passwordController.text,
+          });
 
       Navigator.pushAndRemoveUntil(
         context,

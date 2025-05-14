@@ -41,54 +41,56 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyB9i0W9GilcgCaIfwtLdODSP08yR43tipE',
-    appId: '1:927726495424:web:8ecdb3e9dedb8d297cef25',
-    messagingSenderId: '927726495424',
-    projectId: 'prjpab2-si6d-2226240032',
-    authDomain: 'prjpab2-si6d-2226240032.firebaseapp.com',
-    databaseURL: 'https://prjpab2-si6d-2226240032-default-rtdb.firebaseio.com',
-    storageBucket: 'prjpab2-si6d-2226240032.firebasestorage.app',
-    measurementId: 'G-9XB6L38QX9',
+    apiKey: 'AIzaSyCEUmsA3VDiYnx-d91UCpM8uljKUF8nahw',
+    appId: '1:10951648592:web:3cb87ffa3529335b3eb855',
+    messagingSenderId: '10951648592',
+    projectId: 'prjpab2-si6d-171129',
+    authDomain: 'prjpab2-si6d-171129.firebaseapp.com',
+    databaseURL: 'https://prjpab2-si6d-171129-default-rtdb.firebaseio.com',
+    storageBucket: 'prjpab2-si6d-171129.firebasestorage.app',
+    measurementId: 'G-53HHY5H8R3',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBhPm9Tc8QKhhAa07O4U-9TNsmw3TnltIk',
-    appId: '1:927726495424:android:9c7eab953c5ded397cef25',
-    messagingSenderId: '927726495424',
-    projectId: 'prjpab2-si6d-2226240032',
-    databaseURL: 'https://prjpab2-si6d-2226240032-default-rtdb.firebaseio.com',
-    storageBucket: 'prjpab2-si6d-2226240032.firebasestorage.app',
+    apiKey: 'AIzaSyBHmIQC6poS-flazOY2tokDajSu69vnWdI',
+    appId: '1:10951648592:android:2457c78175a6bc333eb855',
+    messagingSenderId: '10951648592',
+    projectId: 'prjpab2-si6d-171129',
+    databaseURL: 'https://prjpab2-si6d-171129-default-rtdb.firebaseio.com',
+    storageBucket: 'prjpab2-si6d-171129.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyD1JNIFCdE_aBnxjpXaFJUN_xKaGFyJi9M',
-    appId: '1:927726495424:ios:eb63bf42bde428ae7cef25',
-    messagingSenderId: '927726495424',
-    projectId: 'prjpab2-si6d-2226240032',
-    databaseURL: 'https://prjpab2-si6d-2226240032-default-rtdb.firebaseio.com',
-    storageBucket: 'prjpab2-si6d-2226240032.firebasestorage.app',
+    apiKey: 'AIzaSyANa1YwhxOppXoSUF1u27HlwqTTqGySmMw',
+    appId: '1:10951648592:ios:7cc706c94dc78a693eb855',
+    messagingSenderId: '10951648592',
+    projectId: 'prjpab2-si6d-171129',
+    databaseURL: 'https://prjpab2-si6d-171129-default-rtdb.firebaseio.com',
+    storageBucket: 'prjpab2-si6d-171129.firebasestorage.app',
+    iosClientId: '10951648592-sfmnqt69ng5t6lja128a072atsg2an2h.apps.googleusercontent.com',
     iosBundleId: 'com.example.fasumsi6d',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyD1JNIFCdE_aBnxjpXaFJUN_xKaGFyJi9M',
-    appId: '1:927726495424:ios:eb63bf42bde428ae7cef25',
-    messagingSenderId: '927726495424',
-    projectId: 'prjpab2-si6d-2226240032',
-    databaseURL: 'https://prjpab2-si6d-2226240032-default-rtdb.firebaseio.com',
-    storageBucket: 'prjpab2-si6d-2226240032.firebasestorage.app',
+    apiKey: 'AIzaSyANa1YwhxOppXoSUF1u27HlwqTTqGySmMw',
+    appId: '1:10951648592:ios:7cc706c94dc78a693eb855',
+    messagingSenderId: '10951648592',
+    projectId: 'prjpab2-si6d-171129',
+    databaseURL: 'https://prjpab2-si6d-171129-default-rtdb.firebaseio.com',
+    storageBucket: 'prjpab2-si6d-171129.firebasestorage.app',
+    iosClientId: '10951648592-sfmnqt69ng5t6lja128a072atsg2an2h.apps.googleusercontent.com',
     iosBundleId: 'com.example.fasumsi6d',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyB9i0W9GilcgCaIfwtLdODSP08yR43tipE',
-    appId: '1:927726495424:web:01af244f56d8955e7cef25',
-    messagingSenderId: '927726495424',
-    projectId: 'prjpab2-si6d-2226240032',
-    authDomain: 'prjpab2-si6d-2226240032.firebaseapp.com',
-    databaseURL: 'https://prjpab2-si6d-2226240032-default-rtdb.firebaseio.com',
-    storageBucket: 'prjpab2-si6d-2226240032.firebasestorage.app',
-    measurementId: 'G-ZL7D09GPYY',
+    apiKey: 'AIzaSyCEUmsA3VDiYnx-d91UCpM8uljKUF8nahw',
+    appId: '1:10951648592:web:3cb87ffa3529335b3eb855',
+    messagingSenderId: '10951648592',
+    projectId: 'prjpab2-si6d-171129',
+    authDomain: 'prjpab2-si6d-171129.firebaseapp.com',
+    databaseURL: 'https://prjpab2-si6d-171129-default-rtdb.firebaseio.com',
+    storageBucket: 'prjpab2-si6d-171129.firebasestorage.app',
+    measurementId: 'G-53HHY5H8R3',
   );
 
 }
